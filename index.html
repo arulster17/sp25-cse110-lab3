@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting Minutes</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A tool for writing meeting minutes">
+        <meta name="author" content="Arul Mathur">
+        <link rel="icon" type="image/x-icon" href="https://png.pngtree.com/png-clipart/20220910/original/pngtree-message-paper-notepad-and-note-taking-pen-png-image_8529222.png">
+    </head>
+    <body>
+        <header>
+            <h1>Team 4TheWin Meeting Notes</h1>
+            <h3>Meeting Topic: Introduce team members and general setup</h3>
+            <h3>Date: 4/12/2025</h3>
+            <nav>
+                <ul>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#attendance">Attendance</a></li>
+                    <li><a href="#content">Meeting Content</a>
+                        <ul>
+                            <li><a href="#teamintros">Team Introductions</a></li>
+                            <li><a href="#teamlogo">Logo</a></li>
+                            <li><a href="#teamroles"><b>Tentative Roles</b></a></li>
+                            <li><a href="#teamvideo">Introduction Video</a></li>
+                            <li><a href="#teamnorms">Culture/Norms</a></li>
+                            <li><a href="#teamcodestd"><b>Coding Standards</b></a></li>
+                            <li><a href="#teamactivity">Activity - Wavelength</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="#feedback">Feedback</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <hr size="5" color="black"/>
+
+        <main>
+            <section id="agenda">
+                <div >
+                    <h2><span>Meeting Agenda</span></h2>
+                    <ol>
+                        <li>Team Introductions</li>
+                        <li>Decide on Team Logo</li>
+                        <li><strong>Determine Tentative Roles</strong></li>
+                        <li>Record an Introduction Video</li>
+                        <li>Discuss Team Culture and Norms</li>
+                        <li><strong>Establish Coding Standards</strong></li>
+                        <li>Team Activity - Wavelength</li>
+                    </ol>
+                </div>
+            </section>
+            <hr />
+            <section id="attendance">
+                <div>
+                    <h2><span>Member Attendance</span></h2>
+                    <p>Members Present: <em>Meruzhan Sargsyan, Ali Alsadah, Arman Nurbalin, Arul Mathur, Eric Nguyen, Eve Nguyen, Kyle Long, Jude Gamba, Mohamed Hamdi, Richard James, Xiao Chen</em></p>
+                </div>
+            </section>
+            <hr />
+            <section id="content"> 
+                <div>
+                    <h2><span>Meeting Content</span></h2>
+                    <section id="teamintros"><h3>Team Introductions</h3>
+                        <p><a href="https://github.com/cse110-sp25-group04/cse110-sp25-group04/blob/main/admin/team.md">See our team page here!</a></p>
+                        <p>Team Members: <i>Meruzhan Sargsyan, Ali Alsadah, Arman Nurbalin, Arul Mathur, Eric Nguyen, Eve Nguyen, Kyle Long, Jude Gamba, Mohamed Hamdi, Richard James, Xiao Chen</i></p>
+                    </section>
+                    <section id="teamlogo"><h3>Logo</h3>
+                        <p>Put in team logo</p>
+                    </section>
+                    <section id="teamroles"><h3><strong>Tentative Roles</strong></h3>
+                        <p>
+                            <b>Team Leader:</b> Meruzhan Sargsyan <br>
+                            <b>Software Product Design:</b> Kyle Long <br>
+                            <b>Frontend Design:</b> Ali Alsadah, Jude Gamba, Xiao Chen <br>
+                            <b>Backend Design:</b> Arul Mathur, Eric Nguyen <br>
+                            <b>UI/UX Design:</b> Eve Nguyen <br>
+                            <b>DevOps:</b> Mohamed Hamdi <br>
+                            <b>Testing:</b> Richard James <br>
+                            <b>Art&Assets:</b> Arman Nurbalin <br>
+
+                        </p>
+                    </section>
+                    <section id="teamvideo"><h3>Introduction Video</h3>
+                        <p>Note: Trimmed for filesize</p>
+                        <video controls width="500">
+                            <source src="/media/trimmed-team-vid.mp4" type="video/mp4" />
+                        </video>
+                        <h4>Meeting Audio</h4>
+                        <audio controls>
+                            <source src="media/team-intros.mp3" type="audio/mp3">
+                        </audio>
+                    </section>
+                    <section id="teamnorms"><h3>Culture/Norms</h3>
+                        <details>
+                            <summary> Click to see our core values</summary>
+                            <ul>
+                                <li>Conflict resolution and issue escalation</li>
+                                <li>Provide psychological safety</li>
+                                <li>Communication</li>
+                                <li>Respect</li>
+                                <li>Punctuality</li>
+                                <li>Collaborative growth</li>
+                                <li>Sharing knowledge</li>
+                            </ul>
+                          </details>
+                    </section>
+                    <section id="teamcodestd"><h3><strong>Coding Standards</strong></h3>
+                        <p>Put in team member video</p>
+                    </section>
+                    <section id="teamactivity"><h3>Activity - Wavelength</h3>
+                        <p>Success!</p>
+                        <img
+                            width="500"
+                            src="media/teambonding.jpg"
+                            alt="Fun team activity!" />
+                    </section>
+                </div>
+                
+            </section>
+            
+            <section id="feedback">
+                <h1>Feedback</h1>
+                <p>Let us know if you have any feedback for the site!</p>
+                <form>
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    
+                    <div>
+                        <label for="dte">Today's date:</label>
+                        <input
+                        type="date"
+                        id="dte"
+                        name="datetoday"
+                        value="2025-01-01"
+                        min="2025-01-01"
+                        max="2025-12-31" />
+                    </div>
+
+
+                    <label for="contact">Can we contact you concerning this feedback?</label>
+                    <select name="cnt" id="contact">
+                    <option value="">-- Choose an option --</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    </select>
+                    
+                    <div>
+                        <label for="contactchoice">If Yes, choose a method of contact:</label>
+                        <input list="contactchoicelist" id="contactchoice" name="contactchoice" />
+
+                        <datalist id="contactchoicelist">
+                            <option value="Email"></option>
+                            <option value="Phone"></option>
+                            <option value="Carrier Pigeon"></option>
+                        </datalist>
+                    </div>
+
+                    <fieldset>
+                        <legend>Feedback Type</legend>
+                      
+                        <div>
+                          <input type="radio" id="noteissue" name="issue" value="huey" checked />
+                          <label for="noteissue">Meeting notes are insufficient</label>
+                        </div>
+                      
+                        <div>
+                          <input type="radio" id="pageformat" name="issue" value="dewey" />
+                          <label for="pageformat">Bad page format</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="mediaissue" name="issue" value="dewey" />
+                            <label for="mediaissue">Video/Audio not playing correctly</label>
+                          </div>
+                      
+                        <div>
+                          <input type="radio" id="other" name="issue" value="louie" />
+                          <label for="other">Other</label>
+                        </div>
+                    </fieldset>
+
+                    <label for="details">Feedback Details:</label>
+                    <div>
+                        <textarea id="details" name="details" rows="5" cols="40"></textarea>
+                    </div>
+
+                    <div>
+                        <fieldset>
+                            <legend>CAPTCHA</legend>
+                            Who is your favorite CSE 110 professor?
+                            <div>
+                              <input type="checkbox" id="pow" name="pow" checked />
+                              <label for="pow">Powell</label>
+                            </div>
+                          
+                            <div>
+                              <input type="checkbox" id="oth" name="oth" />
+                              <label for="oth">Other</label>
+                            </div>
+                          </fieldset>
+                    </div>
+
+
+
+
+
+                    <button type="button">Submit</button>
+                    
+                </form>
+            </section>
+            
+        </main>
+
+        <hr size="5" color="black"/>
+
+        <footer>
+            <p>Written by Arul Mathur</p>
+        </footer>
+    </body>
+</html>
