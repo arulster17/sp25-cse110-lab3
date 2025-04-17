@@ -1,29 +1,46 @@
+/* Baby's first comment! */
+html {
+    background-color: rgb(242, 255, 96);
+}
+
 h1 {
     color: blue;
+    padding: 0.4em;
+    background-color: #ef4321;
 }
 
 h2 {
-    color: rgba(233, 12, 234, 0.9)
+    color: rgba(233, 12, 234, 0.9);
+    padding: 1vw;
+    background-color: rgba(0, 142, 55, 0.5);
 }
 
 h3 {
-    color: #a32309
+    color: #938475;
+    padding: 3ch;
+    background-color: rgba(0, 94, 255, 0.5);
 }
 
 h4 {
-    color: hsl(98, 26%, 50%) 
+    color: hsl(98, 26%, 50%);
+    padding: 3mm;
+    background-color: rgba(240, 153, 218, 0.5);
 }
 
 strong {
-    color: orange
+    color: green;
+    padding: 10px;
+    background-color: rgba(255, 0, 191, 0.6);
 }
 
 b {
-    color: color(srgb 0.1 0.5 0.8 / 0.9)
+    color: color(srgb 0.1 0.5 0.8 / 0.9);
+    padding: 0.5in;
+    background-color: rgba(26, 233, 60, 0.5);
 }
 
 em {
-    color:color-mix(in lab, plum 60%, #f00 50%)
+    color:color-mix(in lab, plum 60%, #f00 50%);
 }
 
 i {
