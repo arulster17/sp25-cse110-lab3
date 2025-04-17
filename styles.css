@@ -7,24 +7,42 @@ h1 {
     color: blue;
     padding: 0.4em;
     background-color: #ef4321;
+    
+    padding-top: 20px;
+    padding-right: 2em;
+    padding-bottom: 40px;
+    padding-left: 2em;
+
+    border-style: dashed;
+    border-color: black;
+    border-width: thick;
+    border-radius: 30px;
 }
 
 h2 {
     color: rgba(233, 12, 234, 0.9);
-    padding: 1vw;
+    padding: 1vw 1vw 1vw 1vw;
     background-color: rgba(0, 142, 55, 0.5);
+    border: 5px solid red;
+    margin: 10mm 60mm 10mm 0mm
 }
 
 h3 {
     color: #938475;
-    padding: 3ch;
-    background-color: rgba(0, 94, 255, 0.5);
+    padding: 3ch 0 3ch 3ch;
+    background-color: rgba(75, 138, 247, 0.5);
+    border: 5px dotted blue;
+    border-radius: 500px
 }
 
 h4 {
     color: hsl(98, 26%, 50%);
     padding: 3mm;
     background-color: rgba(240, 153, 218, 0.5);
+    margin-left: px;
+    margin-right: 200px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 strong {
@@ -35,7 +53,10 @@ strong {
 
 b {
     color: color(srgb 0.1 0.5 0.8 / 0.9);
-    padding: 0.5in;
+    padding-top: 0.1in;
+    padding-right: 0.1in;
+    padding-bottom: 0.1in;
+    padding-left: 0.1in;
     background-color: rgba(26, 233, 60, 0.5);
 }
 
