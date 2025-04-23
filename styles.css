@@ -1,11 +1,15 @@
 /* Baby's first comment! */
 html {
     background-color: blanchedalmond;
+    font-family: 'Comic Neue', cursive;
+    
 }
 
 h1 {
     color: blue;
     background-color: #ef4321;
+    font-family: 'Comic Neue', cursive;
+    font-style: italic;
     
     padding-top: 20px;
     padding-right: 0em;
@@ -111,7 +115,21 @@ i {
     left:0px;
 }
 
-.banana {
+@media (max-aspect-ratio: 1/1) {
+    .querystuff {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (min-aspect-ratio: 1/1) {
+    .querystuff {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+.banana {  
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around
