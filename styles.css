@@ -41,12 +41,12 @@ h2 {
     border: 5px solid red;
     margin: 10mm 60mm 10mm 0mm;
     height: 100px;
-    
+    &:hover {
+        background-color: blue;
+    }
 }
 
-h2:hover {
-    background-color: blue;
-}
+
 
 h3 {
     color: #938475;
@@ -113,7 +113,7 @@ i {
 
 .doglost {
     position: absolute;
-    top: 5000px;
+    top: 7500px;
     left: 300px;
 }
 
@@ -180,4 +180,9 @@ video ~ p {
 p.highlight {
     background-color: yellow;
     font-weight: bold;
+}
+
+.hasimg:has(img) {
+    border: 2px solid green;
+    background-color: #f0fff0;
 }
