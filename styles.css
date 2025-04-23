@@ -186,3 +186,8 @@ p.highlight {
     border: 2px solid green;
     background-color: #f0fff0;
 }
+
+#kj {
+    display: block;
+    margin: auto;
+}
