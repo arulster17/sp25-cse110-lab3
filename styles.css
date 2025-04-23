@@ -5,11 +5,19 @@ html {
     
 }
 
+h1, span, ul {
+    font-style: italic;
+}
+
+ul {
+    font-size: 1rem;
+}
+
 h1 {
     color: blue;
     background-color: #ef4321;
     font-family: 'Comic Neue', cursive;
-    font-style: italic;
+    font-size: 2rem;
     
     padding-top: 20px;
     padding-right: 0em;
@@ -93,14 +101,14 @@ i {
     display: block;
 }
 
-.dogwatch {
+#dogwatch {
     float: right;
     position: sticky;
     top: 0px;
     right: 0px;
 }
 
-.dogwatch:hover {
+#dogwatch:hover {
     float: left;
 }
 
@@ -139,4 +147,16 @@ i {
     display: grid;
     justify-content: space-evenly;
     justify-items: stretch;
+}
+
+*.per {
+    color: green;
+}
+
+*.aple {
+    color: red;
+}
+
+[jackpot~="jackpot"] {
+    border: 5px solid olive;
 }
