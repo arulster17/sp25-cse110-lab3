@@ -24,7 +24,6 @@ h1 {
     padding-bottom: 40px;
     padding-left: 0em;
     text-align:center;
-    align:center;
     border-style: dashed;
     border-color: black;
     border-width: thick;
@@ -159,4 +158,26 @@ i {
 
 [jackpot~="jackpot"] {
     border: 5px solid olive;
+}
+
+#box1 p {
+    color: brown;
+}
+
+ul > li > ul > li{
+    border: 2px solid blueviolet;
+}
+
+video + p {
+    border: 4px dotted orange;
+    color: violet
+}
+
+video ~ p {
+    background-color: lightgreen;
+}
+
+p.highlight {
+    background-color: yellow;
+    font-weight: bold;
 }
